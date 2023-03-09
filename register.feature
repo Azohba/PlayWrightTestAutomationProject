@@ -15,18 +15,26 @@ Feature: Sign-up new user Flow
     And user signs in with registered user data
     And user validates registration is successful
 
+  Scenario: Email Missing Control
+    Given user should be on email page
+    When user clicks Next button
+    Then user sees tooltip warning message about missing email "message"
+    
   Scenario: Email Format Control
+    Given user should be on email page
     When user enters invalid email format
     And user clicks Next button
     Then user sees tooltip warning message about email format "message"
 
   Scenario: Existing Email Control
+    Given user should be on email page
     When user enters existing email address
     And user checks the agreement checkbox
     And user clicks Next button
     Then user sees notification message about already exist email "message"
 
   Scenario: User Agreement Control
+    Given user should be on email page
     When user enters valid email
     And user clicks Next button
     Then user sees tooltip warning message about checkbox "message"
