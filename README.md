@@ -8,7 +8,7 @@ Playwright
 
 # Versions / Dependencies
 
-Playwright : 1.31.2
+Playwright : 8.11.0
 
 Faker-js/faker : 7.6.0
 
@@ -18,11 +18,16 @@ Precondition:
 
 1: Clone the repository
 
+``` git clone git@github.com:Azohba/PlayWrightTestAutomationProject.git ```
+
 2: Install Playwright
+
+``` npm init playwright@latest  ```
 
 # Run
 
 Runs the test locally, below command triggers to run all test cases
+
 ``` npm test ```
 
  
@@ -35,6 +40,10 @@ $ /tests
 All page related element selectors are stored in here.  
 
 $ ..pages/..
+
+Sign Up Flow Checklist is written by using gherkin in here.
+
+$ /register.feature
 
 # Contribution
 
