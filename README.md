@@ -5,6 +5,7 @@ UI Test cases were implemented in test folder
 # Requirement/s
 
 Node js
+
 Playwright
 
 # Versions / Dependencies
