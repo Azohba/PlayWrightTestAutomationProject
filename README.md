@@ -1,4 +1,4 @@
-# SeenonTestAutomationProject
+# PlayWrightTestAutomationProject
 
 UI Test cases were implemented in test folder
 
